@@ -1,9 +1,9 @@
 package prototyp;
 
 public class Reservierung {
-	public Platz p = new Platz();
-	public Besucher b = new Besucher();
-	public Vorstellung v = new Vorstellung();
+	public Platz p;
+	public Besucher b;
+	public Vorstellung v;
 	
 	public Vorstellung getVorstellung(int id) {
 		return v;
