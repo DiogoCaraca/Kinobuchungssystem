@@ -14,19 +14,19 @@ public class Besucher {
 	}
 	
 	public void platzReservieren(Platz platz) {
-		System.out.println("Mehrere Plätze reservieren (j/n): ");
+		System.out.println("Mehrere Plaetze reservieren (j/n): ");
 		String eingabe = sc.next();
 		
 		if(eingabe.equals("j")) {
 			//Liste Reihe
 			System.out.println("Welche Reihe: ");
 			//-----
-			//Liste Plätze, der angewelten Reihe
-			System.out.println("Wie viele Plätze: ");
+			//Liste Plaetze, der angewelten Reihe
+			System.out.println("Wie viele Plaetze: ");
 			int anzahl = sc.nextInt();
 			
 		}else if(eingabe.equals("n")) {
-			//Liste Plätze 
+			//Liste Plaetze
 			System.out.println("Welchen Platz reservieren: ");
 			int sitz = sc.nextInt();
 			

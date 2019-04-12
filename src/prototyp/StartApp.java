@@ -11,7 +11,7 @@ public class StartApp {
 		}
 	
 		public void menu() {
-			System.out.println("1) Vorstellung auswählen");
+			System.out.println("1) Vorstellung auswaehlen");
 			System.out.println("2) Reservierung details");
 			System.out.println("3) Besucher details");
 			System.out.println("4) Kontoverwaltung");
@@ -21,7 +21,7 @@ public class StartApp {
 			
 			switch(auswahl) {
 			case 1:
-				vorstellungAuswählen();
+				vorstellungAuswaehlen();
 				break;
 			case 2: 
 				reservierungDetails();
@@ -54,7 +54,7 @@ public class StartApp {
 			
 		}
 
-		private void vorstellungAuswählen() {
+		private void vorstellungAuswaehlen() {
 			// TODO Auto-generated method stub
 			
 		}
@@ -72,7 +72,7 @@ public class StartApp {
 						auswahl = sc.nextInt();
 
 					} catch (Exception e) {
-						System.out.println("Bitte eine gültige Zahl eingeben: ");
+						System.out.println("Bitte eine gueltige Zahl eingeben: ");
 						eingabe();
 					}
 			
